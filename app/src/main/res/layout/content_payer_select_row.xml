@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:gravity="start"
+    android:focusable="true"
+    android:clickable="true"
+    android:descendantFocusability="blocksDescendants">
+
+    <CheckBox
+        android:id="@+id/payer_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <TextView
+        android:id="@+id/payer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="3dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="5dp"
+        android:focusable="true"
+        android:singleLine="false"
+        android:textColor="@color/black" />
+
+</LinearLayout>
