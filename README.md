@@ -1,4 +1,4 @@
-# SplitTheBill <img src="https://github.com/TomK86/Split-the-Bill/blob/master/app/src/main/res/drawable/icon.png" height="28" width="28"/>
+# Split the Bill <img src="https://github.com/TomK86/Split-the-Bill/blob/master/app/src/main/res/drawable/icon.png" height="28" width="28"/>
 
 An Android app that splits complicated restaurant bills
 
